@@ -5,7 +5,7 @@ Created on Mon Nov 25 20:16:13 2019
 @author: kisch
 """
 
-from sum_of_digits import calc_sum_of_digits as sod
+from NumberToWords import NumberToWords
 
 
 problem_number = 17
@@ -14,7 +14,14 @@ problem_number = 17
 print("Calculation started")
 
 
-the_answer = sod(2**1000)
+NToWords = NumberToWords()
+
+
+the_answer = 0
+
+for i in range(1,1001):
+    the_answer += len(NToWords.make_word(i))
+
 
 
 
