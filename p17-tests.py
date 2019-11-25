@@ -16,7 +16,7 @@ class TestCollatzLength(unittest.TestCase):
     def setUp(self):
         self.N_to_W = NumberToWords()
     
-    def test_number_to_words(self):
+    def test_make_words(self):
         self.assertEqual(self.N_to_W.make_word(1),"one")
         self.assertEqual(self.N_to_W.make_word(2),"two")
         self.assertEqual(self.N_to_W.make_word(3),"three")
