@@ -8,7 +8,7 @@ Created on Mon Nov 25 20:16:13 2019
 from sum_of_digits import calc_sum_of_digits as sod
 
 
-problem_number = 16
+problem_number = 17
 
 
 print("Calculation started")

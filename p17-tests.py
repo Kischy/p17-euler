@@ -29,7 +29,8 @@ class TestCollatzLength(unittest.TestCase):
         self.assertEqual(self.N_to_W(10),"ten")
         self.assertEqual(self.N_to_W(11),"eleven")
         self.assertEqual(self.N_to_W(12),"twelve")
-        self.assertEqual(self.N_to_W(342 ),"threehundredandforty-two)")
+        self.assertEqual(self.N_to_W(342 ),"threehundredandfortytwo)")
+        #Add more testcases 
 
 
 
