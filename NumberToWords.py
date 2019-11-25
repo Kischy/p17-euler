@@ -90,7 +90,6 @@ class NumberToWords():
                 
     def make_word(self,number):      
         res_til_tens = self.__get_result_til_tens__(number)
-        number = number % 1000
         number = number % 100       
 
         res_from_tens = self.__get_result_from_tens__(number)
