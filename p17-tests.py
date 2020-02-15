@@ -11,7 +11,7 @@ import unittest
 from NumberToWords import NumberToWords
 
 
-class TestCollatzLength(unittest.TestCase):
+class TestNumberToWords(unittest.TestCase):
     
     def setUp(self):
         self.N_to_W = NumberToWords()
